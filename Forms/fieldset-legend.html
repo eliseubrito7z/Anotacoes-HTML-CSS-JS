@@ -1,0 +1,32 @@
+<!--
+    <fieldset>                   basicamente uma DIV
+    - agrupamento de campos
+    - mesmo propósito
+    - semântico
+    - acessibilidade 
+
+    Atributos especiais 
+    - disabled
+        - desabilita todos os elementos internos 
+        - não serão enviados ao submeter o formulário
+    - form
+        - o id de um formulario ao qual esse fieldset pertence
+        - não precisa estar dentro do formulário
+    - name
+        - nome do grupo
+    
+    <legend>
+    - nome do agrupamento
+    - primeiro elementro dentro do fieldset
+-->
+
+<form id="contato-form" action=""> <!--Por padrão, irá enviar para a mesma página-->
+    <button>Enviar</button>
+</form>
+
+<fieldset form="contato-form" name="inputs-contato">
+    <legend>contato</legend> <!--Legenda sobre o que é o formulario-->
+
+    <label for="">nome</label> <!--Instrução de qual dado colocar e acessibilidade--> 
+    <input type="text"> <!--área para digitação-->
+</fieldset>

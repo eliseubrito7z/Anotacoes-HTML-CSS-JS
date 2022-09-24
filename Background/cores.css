@@ -1,0 +1,27 @@
+*{margin: 0;} /*para tirar a borda que o navegador coloca*/
+
+/*header{
+    height: 100px; /*altura para criar um espaço*/
+    /*border: 5px dashed red; dashed é a linha pontilhada    
+}*/
+
+main {
+    color: white;
+    background-color: aqua; /*cor de fundo*/
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat; /*para a imagem não se repetir*/
+    /*background-repeat: repeat-y; PARA SE REPETIR APENAS NA VERTICAL*/
+    background-position: center; /*para ir para um lado que eu queira*/
+    background-size: contain; /*para a imagem se ajustar para aparecer toda no espaço*/ /*Cover para cobrir tudo*/ /*e pode usar % e PX*/
+    background-origin: border-box; /*para começar a partir da borda, e não da margem*/ /*Content-box o padrão*/ /*padding-box para caso tenha um padding e queira cobrir ele*/
+    background-clip: border-box; /*mesmos comandos do Origin*/ /*vai mexer em todo o background, inclusive a cor de fundo e imagem*/
+    background-attachment: fixed; /*Para a imagem de fundo ficar fixa conforme descer a pagina, ou descer junto*/ /*o padrao é Scroll*/
+    /*SHORTHAND*/
+    background: aqua url(https://source.unsplash.com/random) no-repeat right top / 100px border-box content-box fixed; /*PARA O SIZE, COLOCA UMA / E UM ESPAÇO ANTES*/ /*para o origin e o clip, aplicar um valor para cada, se não, um valor assume para os 2*/
+
+    background: linear-gradient(270deg, red, yellow); /*para trocar a cor suavemente*/ /*É possivel mudar o algulo "45deg" */ /*Pode aplicar mais de uma cor*/ /*pode usar também Radial-Gradient (Forma Circular)*/
+
+    /* É possivel multiplos valores no Shorthand, USE VIRGULA
+    background: linear-gradient(270deg, red, yellow)!!!,virgula!!!!aqua url(https://source.unsplash.com/random) no-repeat right top / 100px border-box content-box fixed;
+    */
+}

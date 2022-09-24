@@ -1,0 +1,38 @@
+body { /*Grid aplicado ao body(pai) pois vai trabalhar com o posicionamento dos filhos*/
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: /*cada "" é uma linha*/
+/*            "1 2"       /*Topo*/                /*coluna 1 / coluna 2*/
+/*            "1 2"       /*main e aside*/
+/*            "1 2";      /*footer*/
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 30px 1fr 40px; /*definir o tamanho da linha*/ /*cada valor para uma caixa*/ /*1fr = flexivel*/
+    grid-template-columns: 1fr 80px; /*coluna main flexivel e aside 80px*/
+}
+
+header{
+    grid-area: header;           /*indicando qual area ele vai ocupar*/
+    background-color: green;
+
+    display: flex; /*precisa mudar só uma linha, então vale mais apena utilizar o flex*/
+    justify-content: space-between; /*espaço entre os elementos*/
+    align-items: center; /*se alinhar no centro da "linha"*/
+}
+
+main {
+    grid-area: main;
+    background-color: red;
+}
+
+aside {
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+}

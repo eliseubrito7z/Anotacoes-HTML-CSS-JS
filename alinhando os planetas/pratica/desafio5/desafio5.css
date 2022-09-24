@@ -1,0 +1,18 @@
+* {margin: 0;}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+footer {
+    color: whitesmoke;
+    display: flex;
+    margin-top: auto;
+    justify-content: center; /*meio da horizontal*/
+    background-color: rgb(202, 10, 10);
+    height: 8rem;
+    flex: 1; /*ocupar todo o espaço vazio*/
+    align-items: center; /*meio da altura*/
+}

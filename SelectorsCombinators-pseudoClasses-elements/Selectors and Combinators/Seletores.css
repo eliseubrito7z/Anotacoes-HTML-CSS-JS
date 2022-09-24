@@ -1,0 +1,24 @@
+h1 { /*Element Selector*/
+    color: blue;
+    font-size: 60px;
+}
+
+p { /*Element Selector*/
+    color: green;
+}
+
+#content { /*ID selector*/
+    color: orange;
+}
+
+.red { /*Class selector*/
+    color: red;
+}
+
+[title] { /*Atribute selector*/
+    color: orange;
+}
+
+p:hover{ /*hover é quando passa o mouse em cima*/ /*Pseudo-class selector*/
+    color: red;
+}

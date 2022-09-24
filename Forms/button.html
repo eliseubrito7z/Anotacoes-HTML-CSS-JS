@@ -1,0 +1,42 @@
+<!--
+    <button>
+
+        - representa um botão 
+        - é usado para enviar formularios
+        - É estilizado pelo user agent (navegador)
+    
+    Atributos comuns
+    - type 
+        - submit (enviar o formulario)
+        - reset  (limpar o formulario)
+        - button
+    - autofocus (enviar clicando em enter)
+    - disabled (usar com JS para não enviarem formulario não preenchido)
+    - name  (pode usar junto com o value) 
+    - value  
+    - form (linka a um formulario qualquer)
+
+
+
+-->
+
+
+RESET
+
+<form action="">
+    <input type="text" value="">
+    <button type="reset" >limpar</button>
+</form>
+
+
+
+Name + Value
+
+<button type="submit" name="button" value="Qualquer valor">enviar</button>
+Quando enviar, o "value" vai ser recebido dentro de alguma coisa com o valor "button" 
+
+
+form
+
+<form action="" id="meu-form"></form>
+<button type="submit" form="meu-form">enviar</button>

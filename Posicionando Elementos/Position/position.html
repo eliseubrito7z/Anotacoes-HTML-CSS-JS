@@ -1,0 +1,55 @@
+<!--
+    Propriedade
+    - position
+
+    Altera o fluxo normal dos elementos [um abaixo do outro (para blocos)]
+
+    Value: static | relative | absolute | fixed
+
+    - static
+    Por padrão os elementos são static. Isso significa que os elementos irão seguir o fluxo normal do HTML.
+
+    - relative
+        - top, right, bottom, left, z-index (sentido horario)
+    
+    - absolute
+        - top, right, bottom, left, z-index (sentido horario)
+            <uma camada em cima da outra> / <elimina o espaço não usado por uma caixa>
+            <se fica sem top, right, etc. fica no posicionamento padrão da pag (canto superior esquerdo) transpondo outros elementos>
+            
+    - fixed 
+        <o elemento fica fixo na pag, ou seja, quando desce a pag, o elemento desce também, passando "por cima" dos outros conteudos>
+    
+    - Element Stacking
+        - z-index <ex. das camadas na diagonal>
+            <representa camadas, com o ultimo elementos (box3) sendo o que tem mais força por padrão>
+            <quanto maior o numero no z-index, vai ser a primeira camada>
+
+=======================================
+
+#######Flexbox
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="position.css">
+
+</head>
+<body>
+    <div class="box1 box"></div>
+    <div class="box2 box"></div>
+    <div class="box3 box"></div>
+    <div class="box4 box" ></div>
+    <div class="box5 box" ></div>
+</body>
+</html>
+

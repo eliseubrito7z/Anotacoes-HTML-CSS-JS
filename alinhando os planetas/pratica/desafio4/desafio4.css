@@ -1,0 +1,16 @@
+button {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 17, 184);
+    gap: .4rem;
+    border-radius: 2px;
+    line-height: 0;
+    border: 0;
+}
+
+button img{
+    width: .8rem;
+    height: 2rem;
+}

@@ -1,0 +1,22 @@
+.content-page{
+    border: 2px solid;
+    min-height: 100vh;
+    gap: 1rem;
+
+    display: flex;
+}
+
+aside {
+    border: 2px solid;
+    margin: 70px 0 5px 15px;
+    background-color: gray;
+    /* width: 25%; */
+    flex-basis: 25%;
+}
+
+main {
+    border: 2px solid;
+    margin: 70px 30px 5px 0;
+    background-color: lightgreen;
+    flex: 1; /*pega todo o espaço vazio*/
+}

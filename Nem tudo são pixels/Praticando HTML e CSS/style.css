@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: whitesmoke;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    font-size: 30px;
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+}
+
+.container{
+    padding: 15px;
+    height: 100vh;
+}
+
+.page-title{
+    width: auto;
+    height: 500px;
+    background-color: aqua;
+    margin: 0;
+}
+
+.apresetation{
+    color: black;
+    margin-top: 25px;
+}
+
+.subsection{
+    font-size: 18px;    
+    line-height: 120px;
+    height: 90px;
+    padding-right: 850px;
+    border: 1px solid red;
+}
+/* USAR O BORDER-TOP E BORDER-BOTTOM PARA FAZER AS DIVISÕES*/
+span{
+    font-size: 40px;
+    font-family: 'Qwitcher Grypen', cursive;
+    margin-top: 10px;
+
+}
+.logonpp{
+    width: 200px;
+    padding: 300px;
+}
+
+h1{
+    text-align: center ;
+    font-size: 70px;
+    color: black;
+    background-image: none;
+    background-color: transparent;
+    font-family: 'Qwitcher Grypen', cursive;
+    border: 1px solid red; 
+}
+
+
+
+

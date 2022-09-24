@@ -1,0 +1,47 @@
+<!--
+    Faremos uma tabela que contém 2 lojas, onde estaremos vendo quantos 
+    produtos foram vendidos e produzidos e agruparemos por nome dos produtos.
+-->
+<table>
+    <caption>Produzidos x Vendidos por loja</caption>
+
+
+    <colgroup>
+        <col>                                   
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+    <thead>
+    <tr>        <!--Para ficar em uma linha-->
+        <th rowspan="2"></th> <!-- rowspan para ocupar colunas vazias-->
+        <th colspan="2" scope="colgroup">BMW</th> <!-- colspan para ocupar linhas vazias-->
+        <th colspan="2" scope="colgroup">Mercedes</th>
+    </tr>
+
+    <tr>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">SUV</th>
+            <th>50</th>
+            <th>47</th>
+            <th>64</th>
+            <th>52</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Sedan</th>
+            <th>97</th>
+            <th>89</th>
+            <th>103</th>
+            <th>86</th>
+        </tr>
+    </tbody>
+</table>
